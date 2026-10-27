@@ -1,4 +1,6 @@
-# spurs
+# Digital Help Desk for Older Adults
+
+*Repository name: spurs. 5th Korea Code Fair Hackathon (2023), Bronze Award.*
 
 A small Node.js service that answers questions about using digital devices, by text or by voice. It was built in one day at the 5th Korea Code Fair Hackathon (2023), where the project received a Bronze Award.
 
@@ -69,4 +71,3 @@ This is hackathon code and has not been maintained since 2023.
 - The client accepts a full message list, including the system prompt, from the browser, so the prompt can be changed by the caller.
 - The server URL is hardcoded in the client script.
 - The model names (`gpt-4`, `whisper-1`) and the `openai` Node SDK version reflect what was available in October 2023.
-- An OpenAI API key was committed in the original upload (commit `bb7620c`). It has been removed from the current code and should be treated as revoked; it remains visible in the git history.
